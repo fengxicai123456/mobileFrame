@@ -1,0 +1,17 @@
+全局配置： 
+touch.config()
+事件代理：
+touch.on(delegateElement , types ,selector , callback)
+解除代理：
+touch.off(delegateElement , types , selector , callback)
+事件绑定：
+touch.on(element , types ,callback)
+解除绑定：
+touch.off(element , types , callback)
+触发事件：
+touch.trigger(element, type)
+
+例：
+touch.on("#dom",'rotate',function(){
+	
+	})
